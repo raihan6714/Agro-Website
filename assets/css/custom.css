@@ -1,0 +1,668 @@
+.owl-nav {
+          position: absolute;
+          top: 26%;
+          left: 50%;
+          width: 100%;
+          transform: translate(-50%,-50%);
+        }
+.owl-carousel .owl-nav button.owl-prev {
+      position: absolute;
+      /*background: red;*/
+      border: none;
+      font: inherit;
+      left: 0;
+      display: block;
+      color: #0f0f0f;
+      font-size: 43px;
+      display: block;
+  }
+.owl-carousel .owl-nav button.owl-next{
+    position: absolute;
+    /*background: red;*/
+    border: none;
+    font: inherit;
+    right: 0;
+    display: block;
+    color: #021900;
+    font-size: 43px;
+    display: block;
+}
+ul.breadcrumb {
+  padding: 20px 20px;
+  list-style: none;
+  background-color: #f1f1f1;
+}
+ul.breadcrumb li {
+  display: inline;
+  font-size: 18px;
+}
+ul.breadcrumb li+li:before {
+  padding: 8px;
+  color: black;
+  content: "/\00a0";
+}
+ul.breadcrumb li a {
+  color: #207308;
+  text-decoration: none;
+}
+ul.breadcrumb li a:hover {
+  color: #01447e;
+  text-decoration: underline;
+}
+
+.red_text{
+  color: red;
+}
+
+/*.breadcrumb{padding:.75rem 1rem;margin-bottom:1rem;list-style:none;background-color:#e9ecef;border-radius:.25rem}
+.breadcrumb::after{display:block;clear:both;content:""}
+.breadcrumb-item{float:left}
+.breadcrumb-item+.breadcrumb-item::before{display:inline-block;padding-right:.5rem;padding-left:.5rem;color:#868e96;content:"/"}
+.breadcrumb-item+.breadcrumb-item:hover::before{text-decoration:underline}
+.breadcrumb-item+.breadcrumb-item:hover::before{text-decoration:none}
+.breadcrumb-item.active{color:#868e96}*/
+
+/* Contact page style*/
+.contact_box {
+    background: gray;
+    text-align: center;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    color: #fff;
+}
+.contact_box:hover{
+  background-color: #6abf52;
+}
+
+.box_text {
+    background-color: #6abf52;
+    height: 334px;
+    margin-top: 7px;
+}
+.box_text h4{
+  color: white;
+  padding-top: 20px;
+}
+.box_text i{
+  background-color: white;
+}
+.box_text p {
+  font-weight: 500;
+  font-size: 19px;
+  color: white;
+}
+
+.box_text hr {
+    border: 1px solid white;
+}
+
+/* About Us->company overview*/
+
+.com_view{
+    padding: 27px 0 25px 0;
+}
+
+.com_view h4{
+
+}
+
+.com_view p {
+    font-size: 16px;
+    text-align: justify;
+}
+.com_view span p {
+    background-color: #6abf52;
+    padding: 15px;
+    color: #ffffff;
+}
+
+.com_view .green {
+    color: #569f4f;
+    font-size: 16px;
+}
+
+.com_view img {
+    width: 430px;
+    padding-right: 70px;
+}
+
+
+
+.story_box img {
+    padding-bottom: 25px;
+}
+
+.story_box li span {
+  background-color: #6abf52;
+    color: #ffffff;
+}
+
+.story_box li {
+    line-height: 25px;
+    font-size: 18px;
+    text-align: justify;
+}
+
+/* About Us->leadership*/
+
+.leader_box img {
+    max-width: 80%;
+    height: auto;
+}
+
+.leader_box h4 {
+    margin-bottom: 3px;
+}
+
+.leader_box p {
+    margin: 0 0 15px;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.leader_box hr {
+    width: 40%;
+    margin-left: 0;
+    color: #569f4f;
+    background: #569f4f;
+}
+
+.leader_box p a {
+    font-size: 100%;
+    text-align: left;
+    color: #569f4f;
+}
+
+/* About Us->infrastructure*/
+.infra_box{
+  padding: 50px 65px 20px 65px;
+}
+
+.infra_box h3{
+  color: #569f4f;
+  font-weight: 400;
+}
+
+.infra_box p {
+    padding-top: 5px;
+    font-weight: 400;
+    text-align: justify;
+}
+
+.infrast {
+    padding: 20px 16px 20px 20px;
+}
+
+.infrast h3 {
+    color: #569f4f;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.infrast img {
+    max-width: 100%;
+    height: auto;
+}
+
+.infrast ul {
+    list-style: square;
+    margin-left: auto;
+}
+
+.infrast ul li {
+   
+}
+
+/* About Us->infrastructure*/
+.awards_box {
+    text-align: center;
+}
+
+.awards_box h4 {
+    padding-bottom: 15px;
+}
+
+.awards{}
+
+.awards img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 25px;
+}
+
+.awards h4 {
+    font-size: 19px;
+    line-height: 23px;
+    letter-spacing: 0px;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+
+/* PRODUCT & SERVICES->micronutrients*/
+.micro_box {
+    padding: 20px 65px 20px 65px;
+}
+
+.micro_box p {
+    padding-top: 5px;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.micro_box h4{
+    padding-bottom: 15px;
+}
+
+.micro_box ul{
+    list-style: square;
+    margin-left: auto;
+}
+
+.micro_box ul li{}
+
+.micro_box img{
+    width: 170%;
+    height: 100%;
+    background: rgba(0,0,0,.2);
+}
+
+
+.micro_box img:hover { 
+   background: rgb(240, 240, 240);
+
+}
+.micro_box a:hover{
+   margin-bottom: 20px;
+   background: rgb(240, 240, 240);
+
+}
+
+/* PRODUCT & SERVICES->Plant Protection*/
+.plant_box{
+  padding-bottom: 25px;
+}
+
+.plant_box img {
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.2);
+}
+
+.plant_box a:hover {
+   margin-bottom: 20px;
+   background: rgb(240, 240, 240);
+}
+
+.plant_box img:hover {
+   background: rgb(240, 240, 240);
+}
+
+
+/* PRODUCT & SERVICES->Plant Protection->Plantomycin*/
+.Plant_box{
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.Plant_box img {
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.2);
+}
+
+.Plant_box h2 {
+    color: #569f4f;
+    font-size: 32px;
+}
+
+.Plant_box b {
+    font-size: larger;
+}
+
+.Plant_box ul{
+    position: relative;
+    margin: 0 0 20px 0;
+    padding-left: 50px;
+}
+
+.Plant_box ul li {
+    list-style: square;
+}
+
+.Benefits {
+    padding-bottom: 20px;
+}
+
+.Benefits_box {
+    background: gray;
+    text-align: center;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    color: #fff;
+}
+
+.Benefits_box h4 {
+    font-size: 16px;
+}
+
+.Benefits_box:hover{
+  background-color: #6abf52;
+}
+
+/* PRODUCT & SERVICES->Plant Protection->Dhanush (Carbendazim 12% + Mancozeb 63% WP)*/
+.Dhanush_box{
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.Dhanush_box img {
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.2);
+}
+
+.Dhanush_box h2 {
+    color: #569f4f;
+    font-size: 32px;
+}
+
+.Dhanush_box b {
+    font-size: larger;
+}
+
+.Dhanush_box ul{
+    position: relative;
+    margin: 0 0 20px 0;
+    padding-left: 50px;
+}
+
+.Dhanush_box ul li {
+    list-style: square;
+}
+
+
+/* PRODUCT & SERVICES->Speciality Nutrients*/
+
+.special_box{
+    padding-bottom: 25px;
+}
+
+.special_box p {
+    font-weight: 400;
+    font-size: 18px;
+    padding-right: 115px;
+    padding-left: 115px;
+    text-align: justify;
+}
+
+.special_box img{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.2);
+}
+.special_box img:hover{
+    background: rgb(240, 240, 240);
+}
+
+.special_box a{
+    font-size: 20px;
+}
+
+
+.wheat_box h2 {
+    color: #6abf52;
+}
+
+.wheat_box img {
+    width: 100%;
+    height: auto;
+}
+
+.wheat_box p {
+    text-align: center;
+    font-size: x-large;
+}
+
+.wheat_box p a {
+    text-decoration: none;
+}
+
+/* PRODUCT & SERVICES->Water Soluble NPK*/
+.water_box{
+     padding-bottom: 25px;
+}
+
+.water_box img{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.2);
+}
+
+.water_box img:hover{
+    background: rgb(240, 240, 240);
+}
+
+.water_box a{
+    font-size: 20px;
+}
+
+/* More->Knowledge Centre*/
+.Knowledge_box{
+    padding-bottom: 25px;
+}
+
+.Knowledge_box p {
+    font-weight: 400;
+    font-size: 18px;
+    padding-right: 115px;
+    padding-left: 115px;
+    text-align: justify;
+}
+.Knowledge_box h4 {
+    color: #569f4f;
+    padding: 25px 116px 40px 116px;
+}
+
+.Knowledge_box img{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.2);
+}
+
+.Knowledge_box img:hover{
+     background: rgb(240, 240, 240);
+}
+.Knowledge_box a{
+    font-size: 20px;
+}
+
+/* More->Success Stories*/
+
+.Success_box {
+    padding-bottom: 35px;
+    padding-top: 40px;
+}
+
+.Success_box img {
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.2);
+}
+
+.Success_box img:hover {
+    background: rgb(240, 240, 240);
+}
+
+.Success_box a {
+    font-size: 20px;
+}
+
+/* More->NEWS & UPDATES*/
+
+.NEWS_box{
+     padding-bottom: 25px;
+}
+
+.NEWS_box img{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.2);
+}
+
+.NEWS_box img:hover{
+    background: rgb(240, 240, 240);
+}
+
+.NEWS_box a{
+    font-size: 20px;
+}
+
+/* More->Hydroponics and Consultancy*/
+.Hydro_box {
+    padding-top: 5px;
+    padding-bottom: 15px;
+}
+
+.Hydro_box p {
+    line-height: 35px;
+    font-weight: 400;
+    font-size: medium;
+    text-align: justify;
+}
+
+.Hydro_box h4 {
+    font-size: large;
+    text-align: center;
+}
+
+.Hydro_box img {
+    border-radius: 5px;
+    width: 100%;
+    height: auto;
+    border: 1px solid;
+}
+
+.Hydro_box span{}
+
+.Hydro_box span p {
+    background: #eeeeee;
+    padding: 15px 100px 15px 111px;
+}
+
+/* Crops->Potato*/
+.Potato_box{
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.Potato_box img {
+    width: 100%;
+    height: auto;
+}
+
+.Potato_box h4 {
+    color: #569f4f;
+}
+
+.Potato_box h5 strong {
+    color: #569f4f;
+}
+
+.Potato_box button {
+    background: #569f4f;
+}
+
+.Potato_box button a {
+    color: white;
+    text-decoration: none;
+}
+
+
+/* Crops->Wheat*/
+
+.Wheat_box{
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.Wheat_box img {
+    width: 100%;
+    height: auto;
+}
+
+.Wheat_box h4 {
+    color: #569f4f;
+}
+
+.Wheat_box h5 strong {
+    color: #569f4f;
+}
+
+.Wheat_box button {
+    background: #569f4f;
+}
+
+.Wheat_box button a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Crops->Paddy*/
+
+.Paddy_box{
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.Paddy_box img {
+    width: 100%;
+    height: auto;
+}
+
+.Paddy_box h4 {
+    color: #569f4f;
+}
+
+.Paddy_box h5 strong {
+    color: #569f4f;
+}
+
+.Paddy_box button {
+    background: #569f4f;
+}
+
+.Paddy_box button a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Crops->Tomato*/
+
+.Tomato_box{
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.Tomato_box img {
+    width: 100%;
+    height: auto;
+}
+
+.Tomato_box h4 {
+    color: #569f4f;
+}
+
+.Tomato_box h5 strong {
+    color: #569f4f;
+}
+
+.Tomato_box button {
+    background: #569f4f;
+}
+
+.Tomato_box button a {
+    color: white;
+    text-decoration: none;
+}
